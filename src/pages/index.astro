@@ -1,17 +1,210 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <article id="article" class="p-2 w-148 mx-auto">
+    <div class="mx-auto pt-4 py-2">
+      <h1 class="text-3xl text-center">Know Your Score</h1>
+      <p class="text-xl text-center">Michael's Story is God's Glory</p>
+      <p class="text-sm text-center" id="readTime"></p>
+    </div>
+    <div class="mt-2 mb-4">
+      <img src="/images/vi-and-michael.jpg" alt="Vi and Michael" />
+    </div>
+    <h2 class="text-xl mb-2">Dear Family &amp; Friends,</h2>
+
+    <p class="mb-2">
+      Thank you so much for your prayers, cards, texts, love and support during
+      this most painful time of loss in my life .
+    </p>
+
+    <p class="mb-1">
+      As many of you may have heard, my sweet 53-year-old brother, Michael,
+      suffered a cardiac arrest on March 23, 2026, at the gym he co-owned in
+      Katonah, NY.
+    </p>
+
+    <p class="mb-2">
+      Thanks to the heroic efforts of those at the gym—who immediately performed
+      CPR and used an AED—his pulse was restored. When he arrived at Northern
+      Westchester Hospital in Mount Kisco, he was taken to the cardiac cath lab,
+      where he underwent an emergent procedure to place a stent in his left
+      anterior descending (LAD) artery, which was 99% blocked. The LAD is often
+      referred to as “the widowmaker.”
+    </p>
+
+    <p class="mb-2">
+      He received truly exceptional care in the ICU. Despite every effort,
+      however, he suffered a severe anoxic brain injury that was irreversible.
+      Michael was an organ donor, and in his passing on March 30, 2026, he
+      continued to give selflessly. He was honored with a beautiful “Honor
+      Walk,” where hospital staff line the halls to pay tribute to an organ
+      donor as they are taken to the operating room. In my 35+ years in
+      medicine, it was one of the most moving and meaningful experiences I have
+      ever witnessed.
+    </p>
+
+    <p class="mb-1">
+      What makes this even more heartbreaking is that Michael had no known risk
+      factors for coronary artery disease (CAD). No family history—our father
+      lived to 92, and our mother is 91 and thriving. He had no diabetes, no
+      hypertension, never smoked, used no drugs, and took no medications for
+      cholesterol or any chronic condition. He was, quite simply, the healthiest
+      among us and deeply committed to his fitness—second only to his faith, as
+      he also served as a pastor.
+    </p>
+
+    <p class="mb-2">
+      For several years, I had encouraged him to get a CT calcium score and
+      additional biomarkers as a baseline screening. Like many of us, he was
+      busy—and because he was so healthy and uber fit, he postponed it, planning
+      to do it this year with his annual checkup appointment.
+    </p>
+
+    <p class="mb-2">
+      There are no words to fully express the profound sadness and loss we feel.
+      But if someone as healthy as my brother can develop severe coronary artery
+      disease, it raises an important question: who among us is truly not at
+      risk?
+    </p>
+
+    <p class="mb-2">
+      Heart disease remains the leading cause of death both in the United States
+      and worldwide, yet we do not have a widely adopted routine screening test
+      for it.
+    </p>
+
+    <p class="mb-2">
+      We routinely screen for other diseases:
+      <ul class="my-2 ml-4 list-disc">
+        <li>Colonoscopies for colon cancer</li>
+
+        <li>Pap smears for cervical cancer</li>
+
+        <li>PSA testing for prostate cancer</li>
+
+        <li>Mammograms for breast cancer</li>
+
+        <li>CT scans for lung cancer in long-term smokers</li>
+      </ul>
+    </p>
+
+    <p class="mb-1">
+      But we lack a standard screening approach for the #1 cause of mortality in
+      America and globally —heart disease.
+    </p>
+
+    <p class="mb-1">It doesn’t make sense.</p>
+
+    <p class="mb-1">
+      Primary care physicians may not always order advanced cardiac screening if
+      you are considered “low risk.” But we screen for many conditions even in
+      people without obvious risk factors—so why not this?
+    </p>
+
+    <p class="mb-1">
+      After speaking with several cardiology colleagues, there is agreement that
+      screening should be more widely considered.
+    </p>
+
+    <p class="mb-2">
+      However, at this time, there is not a 100% perfect test to rule out
+      coronary artery disease that is affordable &amp; noninvasive.
+    </p>
+
+    <p class="mb-1">
+      However, if you are 40 or older and asymptomatic, one of the most useful
+      screening tools that can give one insight into their cardiovascular health
+      is a CT Coronary Calcium score. This is a quick, non-invasive scan (about
+      5–15 minutes), requires no IV or preparation, and typically costs
+      $100–$150 out of pocket, as it is not usually covered by insurance.
+    </p>
+
+    <p class="mb-1">A physician’s order is required.</p>
+
+    <p class="mb-2">
+      If you have a family history of heart attacks or sudden cardiac death at a
+      young age or conditions like familial hypercholesterolemia, you should
+      consider a full evaluation by a cardiologist.
+    </p>
+
+    <p class="mb-2">
+      While it’s true that a score of zero on your CT Calcium score is
+      reassuring, particularly in older individuals, it does not mean you do not
+      have heart disease.
+    </p>
+    <p class="mb-2">
+      Why? Because the CT Calcium score scan only detects calcified plaque, not
+      non-calcified (soft) plaque, which can be equally dangerous. In fact,
+      calcified plaques are often more stable than soft plaques, which are prone
+      to rupture, and a major cause of acute heart attack or cardiac arrest. So,
+      in younger populations, soft plaque may be present without having had time
+      to calcify and so you will not see this on a CT Calcium score test.
+    </p>
+    <p class="mb-2">
+      So, how often should you have a calcium score test? You may see a benefit
+      from having a CT Calcium Score test every three to five years, according
+      to studies. It’s only helpful to repeat a scan if you had a normal score
+      the first time and want to know if your risk is still low. It’s not
+      helpful to repeat the CT Calcium score test if you had an abnormal result
+      the first time, since you will need to go to a cardiologist for further
+      evaluation and they will perform other cardiac testing on you.
+    </p>
+
+    <p class="mb-2">
+      In addition to a standard lipid panel, ask your doctor to order these
+      advanced markers to better assess your cardiovascular risk and stroke
+      risks:
+      <ul class="mt-1 mb-2 ml-4 list-disc">
+        <li>Apolipoprotein B</li>
+
+        <li>
+          Lipoprotein A - Lp(a) this is a genetic marker so you only have this
+          done once in a lifetime
+        </li>
+
+        <li>ADMA/SDMA</li>
+
+        <li>hs-CRP (this is different than just regular CRP)</li>
+      </ul>
+    </p>
+
+    <p class="mb-2">
+      If you have risk factors: Diabetes, pre-diabetes, hypertension, elevated
+      cholesterol/LDL or elevation of any of the biomarkers mentioned above,
+      present or past smoker,positive family history of heart disease,
+      overweight with BMI over 25 or more, or a sedentary lifestyle---I would
+      definitely get the CT calcium score knowing the absence of calcium
+      indicates a low risk in the short term, but it cannot fully rule out the
+      presence of atherosclerosis or future events—especially when other risk
+      factors like high LDL, smoking, hypertension,or diabetes, +family history
+      for CAD are present.----but having more information about your
+      cardiovascular risk is important in preventing further progression of
+      heart disease by modifying your lifestyle, diet, exercise, being placed on
+      lipid lowering medications like statins, etc
+    </p>
+    <p class="mb-1">
+      Please take the time to educate yourselves—Knowledge is Power.
+    </p>
+
+    <p class="mb-2">Advocate for your health and for those you love.</p>
+
+    <p class="mb-2">“Know your Score.” ❤️</p>
+
+    <p class="mb-1">Peace🙏</p>
+    <p>Vi</p>
+    <div class="my-4">
+      <div style="padding:177.5% 0 0 0;position:relative;">
+        <iframe
+          src="https://player.vimeo.com/video/1180192904?badge=0&autopause=0&player_id=0&app_id=58479"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="Michael Honor Walk"></iframe>
+      </div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+  </article>
+  <script src="../js/score.ts"></script>
+</BaseLayout>
