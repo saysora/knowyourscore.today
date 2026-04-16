@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import HealthItem from "../components/HealthItem.astro";
 ---
 
 <BaseLayout>
@@ -194,6 +195,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
     <p class="mb-1">Peace🙏</p>
     <p>Vi</p>
+
+    <h3 class="mt-6 mb-4 text-center text-xl">Helpful Links</h3>
+
+    <HealthItem
+      title="CT Calcium Test Score"
+      link1="https://my.clevelandclinic.org/health/diagnostics/16824-calcium-score-screening-heart-scan"
+      link2="https://udshealth.com/blog/coronary-calcium-scan-myths-heart-health/"
+    />
+    <HealthItem
+      title="APOLIPOPROTEIN B"
+      link1="https://www.heart.org/en/health-topics/cholesterol/how-to-get-your-cholesterol-tested/apolipoprotein-b"
+    />
+    <HealthItem
+      title="LIPOPROTEIN A - Lp(a)"
+      link1="https://www.heart.org/en/health-topics/cholesterol/genetic-conditions/lipoprotein-a-risks"
+    />
+    <HealthItem
+      title="ADMA/SDMA"
+      link1="https://www.knowyourrisk.com/wp-content/uploads/2016/03/ADMA-SDMA_handout.pdf"
+    />
+    <HealthItem
+      title="HS-CRP (this is different from just “CRP”)"
+      link1="https://www.thecardiologyadvisor.com/ddi/high-sensitivity-crp/"
+    />
     <div class="my-4">
       <div style="padding:177.5% 0 0 0;position:relative;">
         <iframe
